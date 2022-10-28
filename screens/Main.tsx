@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import React from 'react';
+import { Button, StyleSheet, Text, View } from 'react-native';
 import tooDark from '../tooDark';
-
-
 
 export default function Main({ navigation }: { navigation: any }) {
   const [name, setName] = React.useState('');

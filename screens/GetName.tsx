@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import React from 'react';
+import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 const data = ["Mother", "Father", "Sister", "Brother"]
 
