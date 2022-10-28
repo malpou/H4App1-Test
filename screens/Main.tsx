@@ -34,9 +34,12 @@ export default function Main({ navigation }: { navigation: any }) {
           .navigate('GetColor', { colorCallback: setColor, type: type });
       }} />
 
-      <Text style={styles.margintop} />
-      <Button title='Reset' onPress={reset} />
-
+      {name !== '' && type !== '' && color !== '' &&
+        <>
+          <Text style={styles.margintop} />
+          <Button title='Reset' onPress={reset} />
+        </>
+      }
     </View>
   );
 }
