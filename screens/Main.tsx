@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
-import tooDark from '../tooDark';
+import tooDark from '../utils/tooDark';
 
 export default function Main({ navigation }: { navigation: any }) {
   const [name, setName] = React.useState('');
